@@ -1,0 +1,28 @@
+/* Navigation Bar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}

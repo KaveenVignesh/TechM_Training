@@ -1,0 +1,11 @@
+/* Logout Page Styles */
+h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 200px;
+}

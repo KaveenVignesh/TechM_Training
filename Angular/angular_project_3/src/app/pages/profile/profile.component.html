@@ -1,0 +1,12 @@
+<div class="container mt-4" *ngIf="student">
+  <h2>Profile</h2>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">{{ student.name }}</h5>
+      <p class="card-text"><strong>Email:</strong> {{ student.email }}</p>
+      <p class="card-text"><strong>Academic Year:</strong> {{ student.academicYear }}</p>
+      <p class="card-text"><strong>Semester:</strong> {{ student.semester }}</p>
+    </div>
+  </div>
+  <button class="btn btn-danger mt-3" (click)="authService.logout()">Logout</button>
+</div>

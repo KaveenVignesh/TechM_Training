@@ -1,0 +1,18 @@
+<div class="container mt-4" *ngIf="student">
+  <h2>Grades</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let subject of student.subjects" >
+        <td [style.color]="subject.grade | gradeColor">{{ subject.name }}</td>
+        <td [style.color]="subject.grade | gradeColor" >{{ subject.grade }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-danger mt-3" (click)="authService.logout()">Logout</button>
+</div>

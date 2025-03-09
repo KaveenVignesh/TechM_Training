@@ -1,0 +1,57 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Student Report App</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/dashboard" routerLinkActive="active"
+            >Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/rank-list">Rank List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/grades" routerLinkActive="active"
+            >Grades</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/profile" routerLinkActive="active"
+            >Profile</a
+          >
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/logout" routerLinkActive="active"
+            >Logout</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-auto py-3 bg-light">
+  <div class="container text-center">
+    <span class="text-muted">© 2023 Student Report App</span>
+  </div>
+</footer>

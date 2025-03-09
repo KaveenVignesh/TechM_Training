@@ -1,0 +1,55 @@
+<div class="container mt-4">
+  <h2>Student Rank List</h2>
+
+  <!-- GPA Filter -->
+  <div class="mb-3">
+    <label for="minGPA" class="form-label">Minimum GPA:</label>
+    <input
+      type="number"
+      id="minGPA"
+      class="form-control"
+      [(ngModel)]="minGPA"
+      (input)="filterStudents()"
+      placeholder="Enter minimum GPA"
+    />
+  </div>
+  <div class="mb-3">
+    <label for="maxGPA" class="form-label">Maximum GPA:</label>
+    <input
+      type="number"
+      id="maxGPA"
+      class="form-control"
+      [(ngModel)]="maxGPA"
+      (input)="filterStudents()"
+      placeholder="Enter maximum GPA"
+    />
+  </div>
+
+  <!-- Rank List Table -->
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>GPA</th>
+        <th>Grades</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of filteredStudents; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.email }}</td>
+        <td>{{ student.gpa | number: '1.2-2' }}</td>
+        <td>
+          <ul>
+            <li *ngFor="let subject of student.subjects" [style.color]="subject.grade | gradeColor">
+              {{ subject.name }}: {{ subject.grade  }}
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

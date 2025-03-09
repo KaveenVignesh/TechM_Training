@@ -1,0 +1,144 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "username": "john",
+      "password": "john123",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "subjects": [
+        { "name": "Math", "grade": "A" },
+        { "name": "Science", "grade": "B" },
+        { "name": "History", "grade": "A" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "username": "jane",
+      "password": "jane123",
+      "email": "jane@example.com",
+      "subjects": [
+        { "name": "Math", "grade": "B" },
+        { "name": "Science", "grade": "A" },
+        { "name": "History", "grade": "C" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "username": "alice",
+      "password": "alice123",
+      "email": "alice@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "A" },
+        { "name": "Science", "grade": "A" },
+        { "name": "History", "grade": "A" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "username": "bob",
+      "password": "bob123",
+      "email": "bobbrown@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "C" },
+        { "name": "Science", "grade": "B" },
+        { "name": "History", "grade": "A" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 5,
+      "name": "Charlie White",
+      "username": "charlie",
+      "password": "charlie123",
+      "email": "charliewhite@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "B" },
+        { "name": "Science", "grade": "C" },
+        { "name": "History", "grade": "B" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 6,
+      "name": "David Black",
+      "username": "david",
+      "password": "david123",
+      "email": "davidblack@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "A" },
+        { "name": "Science", "grade": "A" },
+        { "name": "History", "grade": "A" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 7,
+      "name": "Eve Green",
+      "username": "eve",
+      "password": "eve123",
+      "email": "evegreen@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "B" },
+        { "name": "Science", "grade": "C" },
+        { "name": "History", "grade": "B" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 8,
+      "name": "Frank Red",
+      "username": "frank",
+      "password": "frank123",
+      "email": "frankred@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "C" },
+        { "name": "Science", "grade": "B" },
+        { "name": "History", "grade": "A" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 9,
+      "name": "Grace Blue",
+      "username": "grace",
+      "password": "grace123",
+      "email": "graceblue@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "B" },
+        { "name": "Science", "grade": "A" },
+        { "name": "History", "grade": "C" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    },
+    {
+      "id": 10,
+      "name": "Henry Orange",
+      "username": "henry",
+      "password": "henry123",
+      "email": "henryorange@gmail.com",
+      "subjects": [
+        { "name": "Math", "grade": "A" },
+        { "name": "Science", "grade": "B" },
+        { "name": "History", "grade": "A" }
+      ],
+      "academicYear": "2023",
+      "semester": "Fall"
+    }
+  ]
+}

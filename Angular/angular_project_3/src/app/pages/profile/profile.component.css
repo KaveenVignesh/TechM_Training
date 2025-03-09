@@ -1,0 +1,21 @@
+/* Profile Card Styles */
+h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #555;
+}

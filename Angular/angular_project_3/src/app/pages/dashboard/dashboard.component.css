@@ -1,0 +1,31 @@
+/* Dashboard Styles */
+h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.list-group-item {
+  border: none;
+  padding: 0.75rem 1.25rem;
+}
+
+.list-group-item:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.btn-danger {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 200px;
+}
