@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "username": "user1",
+      "password": "password1",
+      "id": "273e"
+    },
+    {
+      "username": "user2",
+      "password": "password2",
+      "id": "5933"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "79a7",
+      "name": "John"
+    },
+    {
+      "id": "8df3",
+      "name": "Ted"
+    }
+  ],
+  "votes": [
+    {
+      "id": "9792",
+      "candidateId": "79a7"
+    },
+    {
+      "id": "b3fe",
+      "user": "user1",
+      "candidateId": "79a7"
+    }
+  ],
+  "grievances": [
+    {
+      "id": "abf0",
+      "grievance": "working clearly\n"
+    }
+  ]
+}
